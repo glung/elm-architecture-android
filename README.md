@@ -4,7 +4,7 @@ An example of the [ELM architecture](https://github.com/evancz/elm-architecture-
 
 # Activity
 
-The [MainActivity](app/src/main/glung/elm_architecture/MainActivity.kt) defines a dispatch method (outside of its scope). 
+The [MainActivity](app/src/main/java/glung/elm_architecture/MainActivity.kt) defines a dispatch method (outside of its scope). 
 
 The `dispatch` method : 
 - `update` the model
@@ -41,7 +41,7 @@ fun dispatch(activity: Activity, model: Model) = { newAction: Action ->
 # The Counter
 
 
-All the application logic is in [Counter.kt](app/src/main/glung/elm_architecture/counter.kt). 
+All the application logic is in [Counter.kt](app/src/main/java/glung/elm_architecture/counter.kt). 
 
 The file 
 - declares the `Model`
