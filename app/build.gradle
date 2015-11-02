@@ -28,12 +28,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'com.android.support:appcompat-v7:22.2.1'
-    compile 'org.jetbrains.anko:anko-sdk15:0.7.1'
-    compile 'org.jetbrains.anko:anko-support-v4:0.7.1'
+    compile 'org.jetbrains.anko:anko-sdk15:0.7.2'
+    compile 'org.jetbrains.anko:anko-support-v4:0.7.2'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 buildscript {
-    ext.kotlin_version = '0.14.451'
+    ext.kotlin_version = '1.0.0-beta-1103'
     repositories {
         mavenCentral()
     }
