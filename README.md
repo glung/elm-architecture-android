@@ -1,6 +1,6 @@
 # elm-architecture-android
 
-An example of the [ELM architecture](https://github.com/evancz/elm-architecture-tutorial/) applied ot Android using [Kotlin](kotlinlang.org) with [Anko](https://github.com/JetBrains/anko).
+An example of the [ELM architecture](https://github.com/evancz/elm-architecture-tutorial/) applied to Android using [Kotlin](kotlinlang.org) with [Anko](https://github.com/JetBrains/anko).
 
 # Activity
 
@@ -47,7 +47,7 @@ The file
 - declares the `Model`
 - declares the `Action`
 - implements the `update` function 
-- implements the`view` function 
+- implements the `view` function 
 
 ```
 sealed class Action {
